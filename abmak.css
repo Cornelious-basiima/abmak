@@ -1,0 +1,221 @@
+body{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    ;
+    
+}
+h1{
+
+    font-size: 80px;
+    color: rgb(4, 100, 124);
+}span{
+    font-size: 80px;
+    color: #e65b5b;
+}
+.level{  font-size: 14px; margin-top: 20px; margin-left: 10px;
+    text-decoration: none;
+    color: rgb(4, 100, 124);
+}
+.main{
+    font-size: 14px; margin-top: 20px; margin-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    word-spacing: 10px;
+    margin-top: 50px;
+}
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color:white; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    font-size: 18px;
+    color: rgb(4, 100, 124);
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right:10px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  
+          
+   
+    
+  }
+  .rows {
+    display: flex;
+    height: 500px;
+    margin-left: 70px;
+    column-gap: 40px;
+    
+    
+  }
+  .rows2 {
+    display: flex;
+    height: 500px;
+    margin-left: 70px;
+    column-gap: 40px;
+    
+    
+  }
+  .columns{
+    
+     width:400px;
+  
+     border-bottom-style: solid;
+     border-bottom-color:#e65b5b;border-bottom-width: thick;
+    height: 400px;
+  }
+  .columns2{
+    
+    width:500px;
+ 
+ 
+   height: 300px;
+ }
+  
+  .columns1{
+    background-image: 
+   
+    linear-gradient(to left, rgba(73, 77, 77, 0.52), rgba(15, 12, 14, 0.73)),
+    url(images/cars.jpg);;
+
+    /* Full height */
+    
+    width:400px;
+    height: 400px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+    border-bottom-style: solid;
+    border-bottom-color:#e65b5b;border-bottom-width: thick;
+
+  }
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 80%;
+    
+    
+    
+  }
+  ul li {
+    color:rgb(4, 78, 97); /* set color of list item to a dark gray */
+      list-style:none; /* if you’re not already using a reset */
+      font-weight: bold;
+     
+  }
+  
+  ul li:before {
+    color:#e65b5b; /* set color to red */
+    content:"\25AA"; /* /2022 is the numerical unicode for &bull; */
+    font-size:2.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+     /* give the bullet some padding from the text Make sure to use em*/
+    position:relative;
+      top:.2em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
+  }
+h2{ margin-left: 30px; 
+    margin-top: 100px;
+      color:rgb(4, 78, 97) ;
+      
+  }
+ p{
+    color:rgb(4, 78, 97) ;
+     
+      
+      text-decoration: underline;
+      margin-top: 200px;
+      margin-left: 30px; 
+ }
+  .fa-angle-left,.fa-angle-right{
+    position: relative;
+margin-left: 100px;
+    top: 200px;
+    -webkit-text-stroke: 0.5px white;
+    color: transparent;
+  }
+  .fa-arrow-right{
+transform: rotate(50deg);
+padding: 2px;
+align-items: center;
+-webkit-text-stroke: 1.3px white;
+    color:rgb(4, 100, 124);
+    
+    
+  }
+  .footer-bottom{
+   
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+ .footer-menu2{
+    float: left;
+  }
+  .footer-menu2 ol{
+    display: flex;
+  }
+  
+  .footer-menu2 ol li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu2 ol li a{
+    color: #747575;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  .footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ol{
+    display: flex;
+  }
+  
+  .footer-menu ol li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ol li a{
+    color: #747575;
+    text-decoration: none;
+    opacity: 0.5;
+  }
